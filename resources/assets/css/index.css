@@ -1,0 +1,56 @@
+.thumbnail {
+    padding:0px;
+}
+.panel {
+    position:relative;
+}
+.panel>.panel-heading:after,.panel>.panel-heading:before{
+    position:absolute;
+    top:11px;left:-16px;
+    right:100%;
+    width:0;
+    height:0;
+    display:block;
+    content:" ";
+    border-color:transparent;
+    border-style:solid solid outset;
+    pointer-events:none;
+}
+.panel>.panel-heading:after{
+    border-width:7px;
+    border-right-color:#f7f7f7;
+    margin-top:1px;
+    margin-left:2px;
+}
+.panel>.panel-heading:before{
+    border-right-color:#ddd;
+    border-width:8px;
+}
+
+.comment-box {
+    resize: vertical; /* user can resize vertically, but width is fixed */
+}
+
+/*body {*/
+    /*padding-top: 60px;*/
+/*}*/
+@media (max-width: 980px) {
+    body {
+        padding-top: 0;
+    }
+}
+a{
+    text-decoration: none;
+}
+
+.red{
+    color: #e72300;
+}
+
+.red:hover{
+    color: #b20000;
+}
+
+.test_class_aaa{
+    color: #b20000;
+}
